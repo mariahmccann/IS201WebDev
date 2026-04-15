@@ -1,0 +1,97 @@
+/* ===== GENERAL PAGE STYLING ===== */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #fff9db; /* butter yellow */
+  font-family: Georgia, "Times New Roman", serif; /* font family requirement */
+  color: #444444; /* font color requirement */
+}
+
+/* ===== MAIN PAGE CONTAINER ===== */
+.page-wrapper {
+  width: 90%;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* ===== HEADER / HERO SECTION ===== */
+.hero-box {
+  background-color: #dcefff; /* baby blue */
+  padding: 30px;
+  margin-bottom: 20px;
+  border-radius: 15px;
+  text-align: center;
+  border: 3px solid #f4d35e; /* soft yellow border */
+}
+
+/* ===== CONTENT SECTIONS ===== */
+.content-box {
+  background-color: #ffffff;
+  padding: 25px;
+  margin-bottom: 20px;
+  border-radius: 15px;
+  border: 2px solid #c7e6ff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+/* ===== FOOTER SECTION ===== */
+.footer-box {
+  background-color: #dcefff;
+  padding: 20px;
+  margin-bottom: 30px;
+  border-radius: 15px;
+  text-align: center;
+  border: 3px solid #f4d35e;
+}
+
+/* ===== HEADINGS ===== */
+h1, h2 {
+  color: #6a9ecf; /* soft wedding blue */
+  font-family: "Trebuchet MS", Arial, sans-serif;
+}
+
+/* ===== PARAGRAPHS & LIST TEXT ===== */
+p, li {
+  color: #444444;
+  line-height: 1.6;
+  font-size: 18px;
+}
+
+/* ===== LINKS ===== */
+a {
+  color: #5b8fc6;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  color: #d4a017; /* gold/yellow hover */
+  text-decoration: underline;
+}
+
+/* ===== NAVIGATION LINKS ===== */
+.nav-links {
+  margin-top: 20px;
+}
+
+.nav-links a {
+  margin: 0 10px;
+}
+
+/* ===== IMAGE STYLING ===== */
+.feature-image {
+  display: block;
+  width: 100%;
+  max-width: 650px; /* makes image smaller */
+  margin: 20px auto;
+  border-radius: 12px;
+  border: 4px solid #f4d35e;
+}
+
+/* ===== VIDEO SECTION ===== */
+.video-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
